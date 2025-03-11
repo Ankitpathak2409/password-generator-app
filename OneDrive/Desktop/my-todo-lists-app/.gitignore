@@ -39,3 +39,22 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore Node.js and npm-related files
+node_modules/
+.next/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.log
+
+# Ignore IDE configurations
+.vscode/
+.idea/
+
+# Ignore other unwanted files
+*.pdf
+*.docx
