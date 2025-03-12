@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+nav {
+  background-color: #e6decb6e; }
+  nav .btn {
+    background-color: #e8a95de0; }
+
+.header li a:hover {
+  color: #6a994e;
+  font-weight: bold; }
+
+.header button a {
+  text-decoration: none;
+  color: black; }
+
+.section1 img {
+  opacity: 0.8; }
+
+.section1 button a {
+  text-decoration: none;
+  color: black; }
+
+.sliderText h5 {
+  font-size: 44px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #2f2f2f;
+  line-height: 1; }
+
+.sliderText h1 {
+  font-size: 154px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #2f2f2f;
+  line-height: 1; }
+
+.sliderText .btn1 {
+  background-color: orange;
+  margin-bottom: 160px;
+  color: white; }
+
+.sliderText .btn2 {
+  margin-bottom: 160px;
+  border: none;
+  background-color: orange;
+  color: white; }
+
+.section2 .col1 h1 {
+  margin-top: 85px;
+  text-align: start; }
+
+.section2 .col1 .p1 {
+  line-height: 1.5; }
+
+.section2 .col2 img {
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.section2 button a {
+  text-decoration: none;
+  color: white; }
+
+.section3 {
+  margin-top: 84px; }
+  .section3 img {
+    border: 1px solid white;
+    border-radius: 40px; }
+  .section3 .col i {
+    margin-top: 14px; }
+
+.section4 {
+  margin-top: 74px;
+  margin-bottom: 90px; }
+  .section4 h3:hover {
+    color: black; }
+  .section4 .icon:hover {
+    color: orange; }
+  .section4 .hr:hover {
+    border: 3px solid orange; }
+  .section4 h3 {
+    color: #6a994e; }
+  .section4 .row2 {
+    margin-top: 84px; }
+  .section4 .hr {
+    margin-top: 20px;
+    border: 3px solid #47b507; }
+  .section4 .campIcon {
+    font-size: 34px;
+    color: #6a994e; }
+  .section4 .hikingIcon {
+    font-size: 34px;
+    color: #6a994e; }
+  .section4 .ziplineIcon {
+    font-size: 34px;
+    color: #6a994e; }
+  .section4 .bridgeIcon {
+    font-size: 34px;
+    color: #6a994e; }
+  .section4 .safariIcon {
+    font-size: 34px;
+    color: #6a994e; }
+  .section4 .birdIcon {
+    font-size: 34px;
+    color: #6a994e; }
+
+.section4.campIcon:hover {
+  color: orange; }
+
+.section5 .btn {
+  background-color: orange;
+  color: white;
+  font-weight: bold; }
+
+.section5 .traveler {
+  font-size: 60px;
+  margin-bottom: 54px; }
+
+.section5 .tent {
+  font-size: 60px;
+  margin-bottom: 54px; }
+
+.section5 .global {
+  font-size: 60px;
+  margin-bottom: 54px;
+  margin-top: 84px; }
+
+.section5 .familyCamping {
+  font-size: 60px;
+  margin-bottom: 54px;
+  margin-top: 84px; }
+
+.clientContainer {
+  background-color: rgba(28, 40, 28, 0.792);
+  color: white;
+  padding-top: 65px; }
+  .clientContainer .clientReview {
+    margin-top: 80px;
+    line-height: 1.6; }
+
+.footer {
+  margin-top: 94px; }
+  .footer .socialIcon {
+    color: #514a4a; }
+    .footer .socialIcon i:hover {
+      background-color: #6a994e;
+      color: white; }
+  .footer a {
+    text-decoration: none;
+    color: #504e4e; }
+  .footer .setting {
+    text-align: end; }
+
+.section1Contact {
+  display: flex;
+  background-image: url("images/contact.png");
+  padding: 155px 0px; }
+  .section1Contact .text {
+    justify-content: center;
+    align-items: center;
+    color: white; }
+    .section1Contact .text h1 {
+      font-size: 74px;
+      font-weight: bold; }
+
+.section2Contact .col1 {
+  margin-top: 45px; }
+  .section2Contact .col1 .h1Heading {
+    font-size: 60px;
+    color: #504e4e; }
+  .section2Contact .col1 .h2Heading {
+    font-size: 52px; }
+  .section2Contact .col1 .pHeading {
+    line-height: 0.8;
+    font-size: 44px;
+    color: #ce2525;
+    margin-bottom: 82px; }
+
+.section2Contact .col2 {
+  margin-top: 85px; }
+
+.footerContact {
+  margin-top: 154px; }
+  .footerContact .socialIcon {
+    color: #514a4a; }
+    .footerContact .socialIcon i:hover {
+      background-color: #6a994e;
+      color: white; }
+  .footerContact .setting {
+    text-align: end; }
+
+@media only screen and (max-width: 995px) {
+  .section4 h3 {
+    font-size: 20px; }
+  .footer .col1 {
+    margin-top: 64px; }
+  .section2Contact .col1 .h1Heading {
+    font-size: 52px; }
+  .section2Contact .col1 .h2Heading {
+    font-size: 45px; }
+  .section2Contact .col1 .pHeading {
+    font-size: 39px; } }
+
+@media only screen and (max-width: 767px) {
+  .section5 .info1 {
+    margin-left: 12px; }
+  .section5 .info2 {
+    margin-left: 178px; }
+  .footer .setting {
+    text-align: start;
+    margin-top: 20px; }
+  .footerContact .setting {
+    text-align: start;
+    margin-top: 20px; } }
+
+@media only screen and (max-width: 560px) {
+  .section2 .col1 h1 {
+    font-size: 37px;
+    text-align: center; }
+  .section4 .hr {
+    margin-right: 15px; } }

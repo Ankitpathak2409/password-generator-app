@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+   
+    background-color: #e6decb6e;
+    .btn{
+        background-color: #e8a95de0;
+    }
+}
+.header{
+    li{
+        a:hover{
+            color: #6a994e;
+            font-weight: bold;
+        }
+    
+}
+    button{
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+.section1{
+    img{
+        opacity: 0.8;
+    }
+    button{
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+.sliderText{
+    h5{
+        font-size: 44px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(47, 47, 47);
+        line-height: 1;
+        
+    }
+    h1{
+        font-size: 154px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        color: rgb(47, 47, 47);
+        line-height: 1;
+    }
+    .btn1{
+        background-color: orange;
+        
+        margin-bottom: 160px;
+        color: white;
+        
+    }
+    .btn2{
+        margin-bottom: 160px;
+        border: none;
+        background-color: orange;
+        color: white;
+    }
+}
+
+// Section 2
+.section2{
+    .col1{
+        h1{
+            margin-top: 85px;
+            // margin-left: 12px;
+            text-align: start;
+        }
+        .p1{
+            // margin-left: 12px;
+            line-height: 1.5;
+        }
+    }
+    .col2{
+        img{
+            margin-top: 40px;
+            // margin-left: 12px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+           
+    }
+}
+button{
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+}
+
+//Section 3
+.section3{
+    margin-top: 84px;
+    img{
+        border: 1px solid white;
+        border-radius: 40px;
+    }
+    .col{
+        i{
+            margin-top: 14px;
+        }
+    }
+}
+
+// Section 4
+.section4{
+    margin-top: 74px;
+    margin-bottom: 90px;
+    h3:hover{
+        color: black;
+    }
+    .icon:hover{
+        color: orange;
+    }
+    .hr:hover{
+        border: 3px solid orange;
+    }
+    h3{
+        color: #6a994e;
+    }
+    .row2{
+        margin-top: 84px;
+    }
+    .hr{
+        margin-top: 20px;
+        border: 3px solid #47b507;
+    }
+    .campIcon{
+        font-size: 34px;
+        color: #6a994e;
+    }
+    .hikingIcon{
+        font-size: 34px;
+        color: #6a994e;
+    }
+    .ziplineIcon{
+        font-size: 34px;
+        color: #6a994e;
+    }
+    .bridgeIcon{
+        font-size: 34px;
+        color: #6a994e;
+    }
+    .safariIcon{
+        font-size: 34px;
+        color: #6a994e;
+    }
+    .birdIcon{
+        font-size: 34px;
+        color: #6a994e;
+    }
+    
+}
+
+.section4.campIcon:hover{
+    color: orange;
+}
+
+.section5{
+    .whyChoose{
+        // margin-top: 2px;
+    }
+    .btn{
+        background-color: orange;
+        color: white;
+        font-weight: bold;
+    }
+    .traveler{
+        font-size: 60px;
+        margin-bottom: 54px;
+    }
+    .tent{
+        font-size: 60px;
+        margin-bottom: 54px;
+    }
+    .global{
+        font-size: 60px;
+        margin-bottom: 54px;
+        margin-top: 84px;
+    }
+    .familyCamping{
+        font-size: 60px;
+        margin-bottom: 54px;
+        margin-top: 84px;
+    }
+    .info1{
+    //    margin-right: 10px;
+    }
+}
+
+//section 6
+
+.clientContainer{
+    background-color: rgba(28, 40, 28, 0.792);
+    color: white;
+    padding-top: 65px;
+    .clientReview{
+        margin-top: 80px;
+        line-height: 1.6;
+    }
+}
+
+//footer
+.footer{
+    margin-top: 94px;
+    .socialIcon{
+        color: #514a4a;
+        i:hover{
+            background-color: #6a994e;
+            color: white;  
+        }
+    }
+    a{
+        text-decoration: none;
+        color: #504e4e;
+    }
+    .setting{
+        text-align: end;
+    }
+}
+
+// Contact Now...
+
+.section1Contact{
+    display: flex;
+    background-image: url('images/contact.png') ;
+    padding: 155px 0px;
+    
+    .text{
+        justify-content: center;
+        align-items: center;
+        color: white;
+        h1{
+            font-size: 74px;
+            font-weight: bold;
+        }
+    }
+}
+.section2Contact{
+    .col1{
+        margin-top: 45px;
+        .h1Heading{
+            font-size: 60px;
+            color: #504e4e;
+        }
+        .h2Heading{
+            font-size:52px;
+            // font-weight: bold;
+        }
+        .pHeading{
+            line-height: 0.8;
+            font-size: 44px;
+            color: rgb(206, 37, 37);
+            margin-bottom: 82px;
+        }
+    }
+    .col2{
+        margin-top: 85px;
+    }
+}
+
+.footerContact{
+    margin-top: 154px;
+    .socialIcon{
+        color: #514a4a;
+        i:hover{
+            background-color: #6a994e;
+            color: white;  
+        }
+    }
+    .setting{
+        text-align: end;
+    }
+}
+
+
+@media only screen and (max-width: 995px) {
+    .section4{
+            h3{
+                font-size: 20px;
+            }
+        
+    }
+    .footer{
+        .col1{
+            margin-top: 64px;
+        }
+    }
+    .section2Contact{
+        .col1{
+            .h1Heading{
+                font-size: 52px;
+            }
+            .h2Heading{
+                font-size: 45px;
+            }
+            .pHeading{
+                font-size: 39px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    
+  
+    .section5{
+        .info1{
+            margin-left: 12px;
+        }
+        .info2 {
+            margin-left: 178px;
+          }
+    }
+    .footer{
+        .setting{
+            text-align: start;
+            margin-top: 20px;
+        }
+    }
+    .footerContact{
+        .setting{
+            text-align: start;
+            margin-top: 20px;
+        }
+    }
+}
+@media only screen and (max-width: 560px){
+    .section2{
+        // margin-left: 10px;
+        .col1{
+            h1{
+                font-size: 37px;
+                text-align: center;
+            }
+        }
+        .col2{
+            // img{
+            //     overflow: hidden;
+            //     display: block;
+            //     margin-left: auto;
+            //     margin-right: auto;
+            //     width: auto;
+            // }
+        }
+       
+    }
+    .section4{
+        .hr{
+            margin-right: 15px;
+        }
+    }
+    
+} 
+    
